@@ -1,0 +1,117 @@
+tr, td, table, tbody, tfoot, th, thead {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: 0 0;
+    border-spacing: 0px;
+}
+table, tr, td {
+    border: 1px solid gray;
+}
+td {
+	width:140px;
+	height:85px;
+}
+.first-row-cell {
+    border: 0px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.first-row td {
+	height:40px;
+}
+.first-row {
+    background: #ececec;
+    padding: 10px;
+    border: 1px solid #dadada;
+}
+hr {
+    width: 350px;
+    float:left;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.flex-cont {
+    display: flex;
+    flex-direction: column;
+}
+.dayOfWeek {
+    float: left;
+    clear: both;
+    border: 1px solid #ececec;
+    background: #ececec;
+    width: 800px;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    font-weight: 600;
+}
+.timeOfLesson {
+    text-align: center;
+    padding: 20px;
+    width: 40px;
+    margin-left: 0;
+    margin-right: 50px;
+}
+.lessonInfo {
+    /* text-align: center; */
+    margin-left: 0;
+    width: 200px;
+    margin-left: 50px;
+}
+.but-cont {
+	display:inline-block;
+}
+#groupInput {
+	margin-bottom:10px;
+	height: 35px;
+	padding-left:5px;
+	width:225px;
+	margin-right:10px;
+}
+#Prev {
+    border: solid #A9A9A9;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-225deg);
+}
+#Prev:hover {
+	cursor:pointer;
+}
+#Next {
+    border: solid #A9A9A9;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+#Next:hover {
+	cursor:pointer;
+}
+.but-cont:active {
+	transform: translateY(4px);
+}
+#groupButton, #TableButton {
+	padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica;
+    border: 2px solid #19befd;
+    color: #fff!important;
+    background: #19befd;
+}
