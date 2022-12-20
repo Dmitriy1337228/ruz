@@ -1,13 +1,3 @@
-<?php
-/*$curl = curl_init();
-curl_setopt ($curl, CURLOPT_URL, "http://10.1.1.47/RUZService/RUZservice.svc/lessons?fromdate=2022.10.17&todate=2022.10.22&&groupoid=14686");
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-
-$result = curl_exec ($curl);
-curl_close ($curl);
-$resultArray=(json_decode($result, true));
-print_r($resultArray[12]);*/
-?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
